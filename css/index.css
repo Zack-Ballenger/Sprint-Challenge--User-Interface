@@ -313,10 +313,10 @@ footer nav a {
 
 .about-nav {
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-end; 
         width: 900px; 
-        margin-left: 200px;
+        margin-left: 190px;
          
     
 }
