@@ -323,11 +323,39 @@ footer nav a {
 
 .about-nav a {
     text-decoration: none;
-    color: black;
 }
 
 
 
 
+/* Self-study answers */
 
 
+/* 
+1.) If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+A: It’s a way to provide meaning for both users and developers alike. 
+
+
+2.) Name two big differences between display: block; and display: inline;.
+
+A: block takes up a whole line’s worth of space, and inline just takes up as much as it needs. 
+
+
+3.) What are the 4 areas of the box model?
+
+A: Margin, border, padding, content.
+
+
+4.) While using flexbox, what axis does the following property work on: align-items: center?
+
+A: The cross axis
+
+
+5.) Explain why git is valuable to a team of developers.
+
+A: It’s a way for us to all work together without ruining a bunch of code in the process. It helps us keep track of what changes happened where and when and why, so that even if someone really messes up and nobody has any idea how to fix it, we can still go back and start from a given point. 
+
+ */
+
+ 
