@@ -146,6 +146,18 @@ footer nav a {
 }
 
 
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;   
+     
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .boxes .box:nth-child(1) {
     background: teal;
@@ -187,4 +199,16 @@ footer nav a {
 .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+
+.middle-stuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
 
