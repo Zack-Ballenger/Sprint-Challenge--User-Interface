@@ -144,3 +144,220 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    width: 800px; 
+     
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/* About */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.midContainer {
+    display: flex;
+}
+
+button {
+    background: white;
+    border-radius: 6px;
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+
+}
+
+.bottomContainer {
+    display: flex;
+}
+
+.top-content p {
+    margin-bottom: 15px;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin: 0px 15px 25px 15px;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.midContainer {
+    border-bottom: 2px dotted grey;
+}
+
+.bottomContainer {
+    border-bottom: 2px dotted grey;
+}
+
+.about-nav {
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-end; 
+        width: 900px; 
+        margin-left: 190px;
+         
+    
+}
+
+.about-nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+/* Self-study answers */
+
+
+/* 
+1.) If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+A: It’s a way to provide meaning for both users and developers alike. 
+
+
+2.) Name two big differences between display: block; and display: inline;.
+
+A: block takes up a whole line’s worth of space, and inline just takes up as much as it needs. 
+
+
+3.) What are the 4 areas of the box model?
+
+A: Margin, border, padding, content.
+
+
+4.) While using flexbox, what axis does the following property work on: align-items: center?
+
+A: The cross axis
+
+
+5.) Explain why git is valuable to a team of developers.
+
+A: It’s a way for us to all work together without ruining a bunch of code in the process. It helps us keep track of what changes happened where and when and why, so that even if someone really messes up and nobody has any idea how to fix it, we can still go back and start from a given point. 
+
+ */
+
+ 
